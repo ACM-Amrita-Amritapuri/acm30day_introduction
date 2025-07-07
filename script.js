@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // === Challenge Box Terminal ===
   const challengeBox = document.querySelector(".challenge-zero");
   if (challengeBox) {
-    challengeBox.addEventListener("dblclick", () => {
+    challengeBox.addEventListener("click", () => {
       document.getElementById("terminalModal").classList.add("active");
     });
     challengeBox.addEventListener("mouseenter", () => {
